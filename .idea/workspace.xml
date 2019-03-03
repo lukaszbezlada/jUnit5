@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="142b2b4a-3c2c-4693-8440-bc6c61df1e0e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/infoshareacademy/junit/task3/ParametrizedFizzBuzzTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/infoshareacademy/junit/task2/FizzBuzz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/infoshareacademy/junit/task2/FizzBuzz.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/infoshareacademy/junit/task2/FizzBuzzTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/infoshareacademy/junit/task2/FizzBuzzTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/infoshareacademy/junit/task2/FizzBuzz.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/infoshareacademy/junit/task2/FizzBuzz.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/infoshareacademy/junit/task2/FizzBuzzTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/infoshareacademy/junit/task2/FizzBuzzTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -26,26 +25,28 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1192" />
+          <entry key="java" value="1575" />
           <entry key="txt" value="11" />
-          <entry key="xml" value="104" />
+          <entry key="xml" value="161" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1192" />
+          <entry key="JAVA" value="1575" />
           <entry key="PLAIN_TEXT" value="11" />
-          <entry key="XML" value="104" />
+          <entry key="XML" value="161" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="4" />
+          <entry key="class" value="1" />
+          <entry key="java" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="4" />
+          <entry key="CLASS" value="1" />
+          <entry key="JAVA" value="5" />
         </counts>
       </usages-collector>
     </session>
@@ -55,8 +56,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="29" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="29" />
+            <state relative-caret-position="408">
+              <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -97,15 +98,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/infoshareacademy/junit/task2/FizzBuzzTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="833">
-              <caret line="49" column="72" lean-forward="true" selection-start-line="49" selection-start-column="72" selection-end-line="49" selection-end-column="72" />
+            <state relative-caret-position="314">
+              <caret line="49" column="51" selection-start-line="49" selection-start-column="51" selection-end-line="49" selection-end-column="51" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#181#182#0" expanded="true" />
                 <element signature="e#231#232#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/infoshareacademy/junit/task3/ParametrizedFizzBuzzTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="335">
+              <caret line="20" column="65" selection-start-line="20" selection-start-column="65" selection-end-line="20" selection-end-column="65" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#342#343#0" expanded="true" />
+                <element signature="e#382#383#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -116,8 +131,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -127,11 +142,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/infoshareacademy/junit/task1/Range.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/infoshareacademy/junit/task1/RangeTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/infoshareacademy/junit/task2/FizzBuzz.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/infoshareacademy/junit/task2/FizzBuzzTest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/com/infoshareacademy/junit/task3/ParametrizedFizzBuzzTest.java" />
       </list>
     </option>
   </component>
@@ -267,6 +283,19 @@
               <item name="junit" type="462c0819:PsiDirectoryNode" />
               <item name="task2" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="junit" type="b2602c69:ProjectViewProjectNode" />
+              <item name="junit" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="junit" type="462c0819:PsiDirectoryNode" />
+              <item name="task3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="junit" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -278,7 +307,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551633719373" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551635435326" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -308,7 +337,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.FizzBuzzTest">
+  <component name="RunManager" selected="JUnit.ParametrizedFizzBuzzTest">
     <configuration name="FizzBuzzTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="junit" />
       <extension name="coverage">
@@ -319,6 +348,20 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.infoshareacademy.junit.task2" />
       <option name="MAIN_CLASS_NAME" value="com.infoshareacademy.junit.task2.FizzBuzzTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ParametrizedFizzBuzzTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="junit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.infoshareacademy.junit.task3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.infoshareacademy.junit.task3" />
+      <option name="MAIN_CLASS_NAME" value="com.infoshareacademy.junit.task3.ParametrizedFizzBuzzTest" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -348,22 +391,6 @@
       <option name="PACKAGE_NAME" value="com.infoshareacademy.junit.task1" />
       <option name="MAIN_CLASS_NAME" value="com.infoshareacademy.junit.task1.RangeTest" />
       <option name="METHOD_NAME" value="shouldReturnFalseIfNumberIsNotInRange" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RangeTest.shouldReturnFalseIfNumberIsNotNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="junit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.infoshareacademy.junit.task1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.infoshareacademy.junit.task1" />
-      <option name="MAIN_CLASS_NAME" value="com.infoshareacademy.junit.task1.RangeTest" />
-      <option name="METHOD_NAME" value="shouldReturnFalseIfNumberIsNotNumber" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -414,18 +441,18 @@
     <list>
       <item itemvalue="Maven.tests" />
       <item itemvalue="JUnit.RangeTest.shouldReturnTrueIfNumberInRange" />
-      <item itemvalue="JUnit.RangeTest.shouldReturnFalseIfNumberIsNotNumber" />
       <item itemvalue="JUnit.RangeTest.shouldReturnFalseIfNumberIsNotInRange" />
       <item itemvalue="JUnit.RangeTest" />
       <item itemvalue="JUnit.FizzBuzzTest" />
+      <item itemvalue="JUnit.ParametrizedFizzBuzzTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ParametrizedFizzBuzzTest" />
         <item itemvalue="JUnit.FizzBuzzTest" />
         <item itemvalue="JUnit.RangeTest" />
         <item itemvalue="JUnit.RangeTest.shouldReturnTrueIfNumberInRange" />
         <item itemvalue="JUnit.RangeTest.shouldReturnFalseIfNumberIsNotInRange" />
-        <item itemvalue="JUnit.RangeTest.shouldReturnFalseIfNumberIsNotNumber" />
       </list>
     </recent_temporary>
   </component>
@@ -439,32 +466,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1551623637688</updated>
-      <workItem from="1551623642251" duration="8386000" />
+      <workItem from="1551623642251" duration="10218000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RangeTest - 2019.03.03 at 16h 16m 40s.xml">
-      <configuration name="RangeTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RangeTest - 2019.03.03 at 16h 19m 02s.xml">
-      <configuration name="RangeTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RangeTest - 2019.03.03 at 16h 24m 26s.xml">
-      <configuration name="RangeTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RangeTest - 2019.03.03 at 17h 22m 09s.xml">
-      <configuration name="RangeTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RangeTest - 2019.03.03 at 17h 24m 38s.xml">
-      <configuration name="RangeTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FizzBuzzTest - 2019.03.03 at 17h 53m 59s.xml">
-      <configuration name="FizzBuzzTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FizzBuzzTest - 2019.03.03 at 17h 55m 58s.xml">
-      <configuration name="FizzBuzzTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="FizzBuzzTest - 2019.03.03 at 18h 10m 03s.xml">
       <configuration name="FizzBuzzTest" configurationId="JUnit" />
     </history-entry>
@@ -474,9 +480,30 @@
     <history-entry file="FizzBuzzTest - 2019.03.03 at 18h 19m 12s.xml">
       <configuration name="FizzBuzzTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="FizzBuzzTest - 2019.03.03 at 18h 21m 35s.xml">
+      <configuration name="FizzBuzzTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FizzBuzzTest - 2019.03.03 at 18h 22m 01s.xml">
+      <configuration name="FizzBuzzTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FizzBuzzTest - 2019.03.03 at 18h 23m 48s.xml">
+      <configuration name="FizzBuzzTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ParametrizedFizzBuzzTest - 2019.03.03 at 18h 41m 56s.xml">
+      <configuration name="ParametrizedFizzBuzzTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ParametrizedFizzBuzzTest - 2019.03.03 at 18h 43m 46s.xml">
+      <configuration name="ParametrizedFizzBuzzTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ParametrizedFizzBuzzTest - 2019.03.03 at 18h 46m 44s.xml">
+      <configuration name="ParametrizedFizzBuzzTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ParametrizedFizzBuzzTest - 2019.03.03 at 18h 50m 37s.xml">
+      <configuration name="ParametrizedFizzBuzzTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8386000" />
+    <option name="totallyTimeSpent" value="10218000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="57" y="25" width="1863" height="1055" extended-state="6" />
@@ -544,13 +571,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="29" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/infoshareacademy/junit/task2/FizzBuzz.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -558,14 +578,40 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-api/5.4.0/junit-jupiter-api-5.4.0.jar!/org/junit/jupiter/api/function/Executable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/infoshareacademy/junit/task2/FizzBuzzTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="833">
-          <caret line="49" column="72" lean-forward="true" selection-start-line="49" selection-start-column="72" selection-end-line="49" selection-end-column="72" />
+        <state relative-caret-position="314">
+          <caret line="49" column="51" selection-start-line="49" selection-start-column="51" selection-end-line="49" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#181#182#0" expanded="true" />
             <element signature="e#231#232#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/infoshareacademy/junit/task3/ParametrizedFizzBuzzTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="20" column="65" selection-start-line="20" selection-start-column="65" selection-end-line="20" selection-end-column="65" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#342#343#0" expanded="true" />
+            <element signature="e#382#383#0" expanded="true" />
           </folding>
         </state>
       </provider>
