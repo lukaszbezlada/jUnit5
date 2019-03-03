@@ -1,5 +1,6 @@
 package com.infoshareacademy.junit.task1;
 
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertFalse;
@@ -7,9 +8,17 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 class RangeTest {
 
+    private Range range;
+
+    @BeforeEach
+    public void initRange() {
+        range = new Range(10, 20);
+
+        System.out.println("BeforeEach");
+    }
+
     @Test
     public void shouldReturnTrueIfNumberInRange() {
-        Range range = new Range(10, 20);
 
         boolean result = range.isInRange(15);
 
@@ -18,7 +27,6 @@ class RangeTest {
 
     @Test
     public void shouldReturnFalseIfNumberIsNotInRange() {
-        Range range = new Range (10, 20);
 
         boolean result = range.isInRange(21);
 
