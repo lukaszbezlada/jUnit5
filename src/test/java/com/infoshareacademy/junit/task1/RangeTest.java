@@ -1,5 +1,6 @@
 package com.infoshareacademy.junit.task1;
 
+import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
@@ -9,6 +10,11 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 class RangeTest {
 
     private Range range;
+
+    @BeforeAll
+    public static void initAll() {
+        System.out.println("BeforeAll");
+    }
 
     @BeforeEach
     public void initRange() {
