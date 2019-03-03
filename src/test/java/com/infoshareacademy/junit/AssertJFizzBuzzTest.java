@@ -1,6 +1,7 @@
 package com.infoshareacademy.junit;
 
 import com.infoshareacademy.junit.task2.FizzBuzz;
+import org.assertj.core.api.SoftAssertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
@@ -15,11 +16,11 @@ public class AssertJFizzBuzzTest {
     public void shouldReturnFizzBuzz() {
         String result = fizzBuzz.play(15);
         assertThat(result)
+                .overridingErrorMessage("Something went wrong!")
                 .isEqualTo("FizzBuzz!")
                 .isNotNull()
                 .isNotEqualTo("Buzz!")
-                .isNotEqualTo("Fizz!")
-                .withFailMessage("Something went wrong!");
+                .isNotEqualTo("Fizz!");
     }
 
     @Test
@@ -42,5 +43,19 @@ public class AssertJFizzBuzzTest {
         assertThatThrownBy(() -> fizzBuzz.play(number))
                 .isInstanceOf(ArithmeticException.class)
                 .hasMessage("Number can not be 0 or negative!");
+    }
+
+    @Test
+    public void shouldReturnCorrectValue() {
+        int negative = -1;
+        int zero = 0;
+        SoftAssertions softly = new SoftAssertions();
+        softly.assertThatThrownBy(() -> fizzBuzz.play(negative))
+                .isInstanceOf(ArithmeticException.class)
+                .hasMessage("Number can not be 0 or negative!");
+        softly.assertThatThrownBy(() -> fizzBuzz.play(zero))
+                .isInstanceOf(ArithmeticException.class)
+                .hasMessage("Number can not be 0 or negative!");
+        softly.assertAll();
     }
 }

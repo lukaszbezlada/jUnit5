@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="142b2b4a-3c2c-4693-8440-bc6c61df1e0e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/infoshareacademy/junit/AssertJFizzBuzzTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/infoshareacademy/junit/AssertJFizzBuzzTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/infoshareacademy/junit/AssertJFizzBuzzTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -29,14 +23,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="csv" value="60" />
-          <entry key="java" value="2377" />
+          <entry key="java" value="2488" />
           <entry key="txt" value="11" />
           <entry key="xml" value="162" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2377" />
+          <entry key="JAVA" value="2488" />
           <entry key="PLAIN_TEXT" value="71" />
           <entry key="XML" value="162" />
         </counts>
@@ -98,8 +92,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/infoshareacademy/junit/task2/FizzBuzz.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+            <state relative-caret-position="108">
+              <caret line="6" column="42" lean-forward="true" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="76" />
             </state>
           </provider>
         </entry>
@@ -107,8 +101,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/infoshareacademy/junit/task2/FizzBuzzTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="403">
-              <caret line="53" column="55" selection-start-line="53" selection-start-column="17" selection-end-line="53" selection-end-column="55" />
+            <state relative-caret-position="471">
+              <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#181#182#0" expanded="true" />
@@ -137,8 +131,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/infoshareacademy/junit/AssertJFizzBuzzTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="675">
-              <caret line="42" column="30" selection-start-line="42" selection-start-column="30" selection-end-line="42" selection-end-column="30" />
+            <state relative-caret-position="488">
+              <caret line="58" column="27" selection-start-line="58" selection-start-column="27" selection-end-line="58" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -350,7 +344,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551640276604" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551640838970" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -381,7 +375,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.AssertJFizzBuzzTest">
+  <component name="RunManager" selected="JUnit.AssertJFizzBuzzTest.shouldReturnCorrectValue">
     <configuration name="AssertJFizzBuzzTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="junit" />
       <extension name="coverage">
@@ -396,16 +390,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FizzBuzzTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AssertJFizzBuzzTest.shouldReturnCorrectValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="junit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.infoshareacademy.junit.task2.*" />
+          <option name="PATTERN" value="com.infoshareacademy.junit.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.infoshareacademy.junit.task2" />
-      <option name="MAIN_CLASS_NAME" value="com.infoshareacademy.junit.task2.FizzBuzzTest" />
+      <option name="PACKAGE_NAME" value="com.infoshareacademy.junit" />
+      <option name="MAIN_CLASS_NAME" value="com.infoshareacademy.junit.AssertJFizzBuzzTest" />
+      <option name="METHOD_NAME" value="shouldReturnCorrectValue" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -484,19 +480,19 @@
     </configuration>
     <list>
       <item itemvalue="Maven.tests" />
-      <item itemvalue="JUnit.FizzBuzzTest" />
       <item itemvalue="JUnit.ParametrizedFizzBuzzTest" />
       <item itemvalue="JUnit.ParametrizedFizzBuzzTest.shouldReturnExpectedValue" />
       <item itemvalue="JUnit.ParametrizedFizzBuzzTest.shouldReturnExpectedValueFromCSV" />
       <item itemvalue="JUnit.AssertJFizzBuzzTest" />
+      <item itemvalue="JUnit.AssertJFizzBuzzTest.shouldReturnCorrectValue" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AssertJFizzBuzzTest.shouldReturnCorrectValue" />
         <item itemvalue="JUnit.AssertJFizzBuzzTest" />
         <item itemvalue="JUnit.ParametrizedFizzBuzzTest.shouldReturnExpectedValueFromCSV" />
         <item itemvalue="JUnit.ParametrizedFizzBuzzTest.shouldReturnExpectedValue" />
         <item itemvalue="JUnit.ParametrizedFizzBuzzTest" />
-        <item itemvalue="JUnit.FizzBuzzTest" />
       </list>
     </recent_temporary>
   </component>
@@ -510,23 +506,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1551623637688</updated>
-      <workItem from="1551623642251" duration="14583000" />
+      <workItem from="1551623642251" duration="15174000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ParametrizedFizzBuzzTest_shouldReturnExpectedValueFromCSV - 2019.03.03 at 19h 34m 24s.xml">
-      <configuration name="ParametrizedFizzBuzzTest.shouldReturnExpectedValueFromCSV" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ParametrizedFizzBuzzTest_shouldReturnExpectedValueFromCSV - 2019.03.03 at 19h 36m 21s.xml">
-      <configuration name="ParametrizedFizzBuzzTest.shouldReturnExpectedValueFromCSV" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ParametrizedFizzBuzzTest_shouldReturnExpectedValueFromCSV - 2019.03.03 at 19h 36m 37s.xml">
-      <configuration name="ParametrizedFizzBuzzTest.shouldReturnExpectedValueFromCSV" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AssertJFizzBuzzTest - 2019.03.03 at 19h 55m 33s.xml">
-      <configuration name="AssertJFizzBuzzTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="AssertJFizzBuzzTest - 2019.03.03 at 20h 00m 03s.xml">
       <configuration name="AssertJFizzBuzzTest" configurationId="JUnit" />
     </history-entry>
@@ -545,9 +529,21 @@
     <history-entry file="AssertJFizzBuzzTest - 2019.03.03 at 20h 10m 19s.xml">
       <configuration name="AssertJFizzBuzzTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="AssertJFizzBuzzTest - 2019.03.03 at 20h 10m 49s.xml">
+      <configuration name="AssertJFizzBuzzTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AssertJFizzBuzzTest - 2019.03.03 at 20h 11m 18s.xml">
+      <configuration name="AssertJFizzBuzzTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AssertJFizzBuzzTest - 2019.03.03 at 20h 12m 31s.xml">
+      <configuration name="AssertJFizzBuzzTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AssertJFizzBuzzTest - 2019.03.03 at 20h 15m 13s.xml">
+      <configuration name="AssertJFizzBuzzTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14583000" />
+    <option name="totallyTimeSpent" value="15174000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="57" y="25" width="1863" height="1055" extended-state="6" />
@@ -603,13 +599,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/infoshareacademy/junit/task2/FizzBuzz.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-api/5.4.0/junit-jupiter-api-5.4.0.jar!/org/junit/jupiter/api/function/Executable.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -659,8 +648,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/infoshareacademy/junit/task2/FizzBuzzTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="53" column="55" selection-start-line="53" selection-start-column="17" selection-end-line="53" selection-end-column="55" />
+        <state relative-caret-position="471">
+          <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#181#182#0" expanded="true" />
@@ -669,10 +658,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/infoshareacademy/junit/task2/FizzBuzz.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="42" lean-forward="true" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/infoshareacademy/junit/AssertJFizzBuzzTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="42" column="30" selection-start-line="42" selection-start-column="30" selection-end-line="42" selection-end-column="30" />
+        <state relative-caret-position="488">
+          <caret line="58" column="27" selection-start-line="58" selection-start-column="27" selection-end-line="58" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
