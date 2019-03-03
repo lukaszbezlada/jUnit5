@@ -4,9 +4,7 @@ import com.infoshareacademy.junit.task2.FizzBuzz;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.params.ParameterizedTest;
-import org.junit.jupiter.params.provider.Arguments;
-import org.junit.jupiter.params.provider.MethodSource;
-import org.junit.jupiter.params.provider.ValueSource;
+import org.junit.jupiter.params.provider.*;
 
 import java.util.stream.Stream;
 
@@ -67,5 +65,15 @@ public class ParametrizedFizzBuzzTest {
                 Arguments.arguments(5, "Buzz!"),
                 Arguments.arguments(15, "FizzBuzz!")
         );
+    }
+
+    @ParameterizedTest(name = "{index} - for {0} should return {1}")
+    @CsvFileSource(resources = "/test_data.csv", numLinesToSkip = 1)
+    @CsvSource(value = {"110, Buzz!","204,Fizz!"})
+    public void shouldReturnExpectedValueFromCSV(int number, String expectedResult) {
+
+        String actualResult = fizzBuzz.play(number);
+
+        assertEquals(expectedResult, actualResult);
     }
 }
